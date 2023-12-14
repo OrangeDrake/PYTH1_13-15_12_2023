@@ -36,7 +36,11 @@ if cislo == cislo1 and cislo1 == cislo2:
 else:
     print("cislo nemusi byt rovno cislo2")
 
+zaklad = 2
+exponent = 3
 
+mocnina = 2**3
+print("mocnina: " + str(mocnina))
 
 
 

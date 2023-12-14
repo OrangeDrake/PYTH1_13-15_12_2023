@@ -14,6 +14,11 @@ def vytvor_matici2(pocet_radku, pocet_sloupcu):
         matice.append(radek)
     return matice
 
+#nefunguje protoze matice ukazuje jenom na jeden objekt radku
+# def vytvor_matici3(pocet_radku, pocet_sloupcu):
+#     return [[0]*pocet_sloupcu]*pocet_radku
+
+
 def vypis_matici(matice):
     for radek in matice:
         for cislo in radek:

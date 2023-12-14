@@ -36,7 +36,6 @@ class Manazer(Zamestanec):
     def pracuj(self):
         print("Manazer " + self.jmeno + " domlouva schuzky")
 
-
 jan = Zamestanec("Jan", 35, 40000)
 jan.pracuj()
 jan.predstav_se()
@@ -56,4 +55,6 @@ print("projiti listu")
 zamestanci = [jan, lubos, milos]
 
 for zamestnanec in zamestanci:
+    if not isinstance(zamestnanec, Zamestanec):
+        continue
     zamestnanec.pracuj()
