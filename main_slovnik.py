@@ -34,6 +34,10 @@ for znak in veta:
 
 print(pocty_pismen)
 
+#projiti klicu
 for pismeno in pocty_pismen:
     print(pismeno)
 
+#projiti hodnot
+for pismeno in pocty_pismen:
+    print(pocty_pismen[pismeno])

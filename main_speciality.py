@@ -85,3 +85,5 @@ if (seznam):
 else:
     print("seznam je prazdny")
 
+print(*moje_cisla)
+
