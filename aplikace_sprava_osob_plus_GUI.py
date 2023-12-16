@@ -76,9 +76,6 @@ class Sprava_osob:
                                                                             ("all files", "*.*")))
         self.nacti(path)
 
-
-
-
     def otevri_okno_vypisu(self, okno):
         nove_okno = Toplevel(okno)
         vypis_text = Text(nove_okno)
@@ -90,8 +87,6 @@ class Sprava_osob:
         for osoby in self.osoby:
             vypis_text.insert(END, str(osoby) + "\n")
         vypis_text.config(state=DISABLED)
-
-
 
     def spust_GUI(self):
         root = Tk()

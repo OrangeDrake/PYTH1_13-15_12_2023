@@ -56,7 +56,7 @@ class Prikaz_pouzij:
         return "pouzil jsi " + parametry[0]
 
     def zobraz_napovedu(self):
-        return "prikaz ma jeden parametr a to predmet, ktery chce pouzit"
+        return "prikaz ma jeden parametr a to predmet, ktery chces pouzit"
 
 class Prikaz_napoveda:
     nazev = "napoveda"
@@ -116,7 +116,7 @@ class Hra:
             try:
                 prikaz = self.prikazy[prikaz]
             except KeyError as e:
-                print("Neplatni prikaz")
+                print("Neplatny prikaz")
                 continue
             odpoved = prikaz.proved(parametry)
             print(odpoved)

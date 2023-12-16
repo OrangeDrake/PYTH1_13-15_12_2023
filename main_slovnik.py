@@ -10,7 +10,7 @@ print("Vyska Zdenka: {}". format(vysky["zdenek"]))
 print("Vyska Kvety: {}". format(vysky["kveta"]))
 
 try:
-    print("Vyska Kvety: {}". format(vysky["jirka"]))
+    print("Vyska Jitky: {}". format(vysky["jirka"]))
 except KeyError as e:
     print(e)
 

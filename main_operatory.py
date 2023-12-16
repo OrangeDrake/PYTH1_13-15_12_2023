@@ -39,7 +39,7 @@ else:
 zaklad = 2
 exponent = 3
 
-mocnina = 2**3
+mocnina = zaklad**exponent
 print("mocnina: " + str(mocnina))
 
 

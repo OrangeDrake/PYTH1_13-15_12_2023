@@ -24,7 +24,7 @@ def najdi_prvocisla(urcovaci_funkce, horni_mez):
             prvocisla.append(cislo)
     return prvocisla
 
-def najdi_prvocisla_eratosthenovo_sita(horni_mez):
+def najdi_prvocisla_eratosthenovo_sito(horni_mez):
     prvocisla = []
     jsou_prvocisla = [True] * horni_mez
     for cislo in range(2, horni_mez):
